@@ -17,6 +17,7 @@ Write grounded engineering blog posts for `tech.anti-pattern.co.jp` in `kohe` (`
 
 * **Opening & Identity**: Start with `こんにちは、koheです。`. Do **not** include links to Zenn (`zenn.dev/...`) unless explicitly requested.
 * **Tone**: `です・ます` base with candid engineer remarks and `※ 〜` side notes. Keep paragraphs short (2–4 lines) and use `##` / `###` headings plus Markdown tables for metrics or comparisons.
+* **No Horizontal Dividers (`---`)**: Do **not** insert `---` horizontal rules between sections in the article body—they render as noisy divider lines in EmDash. Let `##` / `###` headings separate sections cleanly.
 * **No AI Clichés or Unnatural Words**:
   * Avoid stiff/bureaucratic terms such as `正本` (use `元データ`, `ビルド済み出力`, etc.).
   * Strip typical AI-blog phrases: `結果から言うと`, `理由はシンプルで`, `今どきっぽい`, `〜と言った点`, `完遂できました`, `非常に軽量で`, `〜の心配もほぼありません`, `いかがでしょうか`, generic closing sign-offs (`引き続き〜をよろしくお願いします！`).
